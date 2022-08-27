@@ -126,3 +126,20 @@ header{
  }
  
 }
+
+
+@media screen and (max-width:1700px) {
+    header{
+    height: 110vh;
+      padding: 2rem;
+    }
+    .header__img img{
+      height: 100%;
+   }
+   .header__img{
+      height: 80%;
+      margin-top: 2rem;
+    
+   }
+  }
+  
