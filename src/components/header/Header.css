@@ -1,13 +1,25 @@
 header{
-    height: 100vh;
-    padding-top: 7rem;
-    overflow: hidden;
+    padding-top: 4rem;
+   
+}
+.header__img img{
+    height: 500px;
+}
+.header__img{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .header__container{
     text-align: center;
      height: 100%;
      position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.head h5{
+    margin-top:  4rem;
 }
 
 /*====cta====*/
@@ -21,70 +33,77 @@ header{
 /*====social====*/
 .Social{
     display: flex;
-    flex-direction: column;
     align-items: center;
-    gap: 1rem;
-    position: absolute;
-    left: 0;
-    bottom: 3rem;
-    font-size: 1.5rem;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 1rem;
+    font-size: 2rem;
+   
+   
 }
-.Social::after{
-    content: "";
-    height: 2rem;
-    width: 2px;
-    color: black;
-}
-.header__img img{
-    height: 28rem;
-    
-}
-.header__img{
-    background:linear-gradient(var(--color-primary), transparent) ;
-    width: 22rem;
-    height: 28rem;
-    position: absolute;
-    left: calc(50% - 11rem);
-    margin-top: 4rem;
-    border-radius: 12rem 12rem 0 0 ;
-    padding: 3rem 1rem 1rem 1rem;
-    overflow: hidden;
-}
+
+
 .scroll__name{
-    position: absolute;
-    right: -2.3rem;
-    bottom: 7rem;
-    transform: rotate(90deg);
+  
+  
+   
 
 }
 
 @media screen and (max-width:1024px) {
-  header{
-  height: 110vh;
-    padding: 2rem;
-  }
-  .header__img img{
-    height: 100%;
+ .head h5{
+    margin-top: 0;
+
+ }
+ .head{
+    margin-top: 5rem;
+ }
+ header{
+    padding: 1px;
+   
+ }
+ .header__container{
+    margin: 1rem;
+    margin-right: 1ren;
+    justify-content: space-between 5rem;
+    width: 95vw;
+
+    
  }
  .header__img{
-    height: 80%;
-    margin-top: 2rem;
+    margin-left: 3rem;
+    overflow: hidden;
   
+    
+ }
+ .header__img img{
+    width: 400px;
  }
 }
 
 @media screen and (max-width:600px) {
     header{
-        height: 100vh;
-        padding: 2rem;
+      width: 100vw;
+   
 
     }
-    .Social, .scroll__name{
-        display: none;
-    }
     .header__img img{
-        height: 100%;
-     }
+        margin: auto;
+        height: auto;
+        margin-left: 2px;
+        width: 380px;
+        
+    }
+    .header__img{
+        margin: auto;
+        overflow: hidden;
+        margin-left: 2px;
+    }
+    .header__container{
+        display: block;
+        overflow: initial;
+    }
+
 }
 
 @media screen and (max-width:350px) {
@@ -99,47 +118,40 @@ header{
         font-size: .7rem;
     }
     .header__img img{
-      width: 100%;
-      height: 100%;
-  
+        width: 250px;
     }
+   
     
-        .header__img{
-            background:linear-gradient(var(--color-primary), transparent) ;
-            width: 16rem;
-            height: 30rem;
-            position: absolute;
-            left: calc(50% - 11rem);
-            margin-top: 3rem;
-            border-radius: 16rem 16rem 0 0 ;
-            padding: 2rem .6rem .6rem .6rem;
-            overflow: hidden;
-            margin-left: 3rem;
-        }
-
     
 }
 
-@media screen and (max-width:450px) {
- .header__img img{
-    height: 100%;
- }
- 
-}
-
-
-@media screen and (max-width:1700px) {
-    header{
-    height: 110vh;
-      padding: 2rem;
+@media screen and (max-width:750px) {
+    .header__container{
+        display: block;
+        justify-content: center;
+        align-items: center;
     }
     .header__img img{
-      height: 100%;
-   }
-   .header__img{
-      height: 80%;
-      margin-top: 2rem;
-    
-   }
-  }
+        margin: auto;
+    }
+    .header__img{
+        margin: 0;
+        overflow: hidden;
+    }
+}
+
+
+@media screen and (max-width:2000px) {
+    .header__container{
+        width: 60%;
+    }
   
+}
+
+@media screen and (max-width:1280px) {
+    .header__container{
+        width: 85%;
+    }
+
+}
+ 
