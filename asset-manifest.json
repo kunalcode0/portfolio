@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.f9fc5f1d.css",
-    "main.js": "/portfolio/static/js/main.97eb4543.js",
+    "main.js": "/portfolio/static/js/main.c6c4225c.js",
     "static/media/weather-app.png": "/portfolio/static/media/weather-app.9e72fed5006d24d0268e.png",
     "static/media/portfolio2.png": "/portfolio/static/media/portfolio2.bf3037a4bc2c176b6177.png",
-    "static/media/Resume.pdf": "/portfolio/static/media/Resume.8acc79325f3855790b9f.pdf",
     "static/media/ME2.webp": "/portfolio/static/media/ME2.9650c8600e01a8831583.webp",
     "static/media/portfolio3.png": "/portfolio/static/media/portfolio3.6c8dea2e891dd71a81b9.png",
     "static/media/ecommerce.png": "/portfolio/static/media/ecommerce.a037d0257bc78429fffe.png",
     "static/media/ME.png": "/portfolio/static/media/ME.12bded97bebc789cfd8d.png",
     "static/media/portfolio1.png": "/portfolio/static/media/portfolio1.6fe6f32f4a170cd6a492.png",
     "static/media/gymapp.png": "/portfolio/static/media/gymapp.da61a9efadd9072fc5b5.png",
+    "static/media/RESUME2.pdf": "/portfolio/static/media/RESUME2.a05c2480bfe19f5b6c91.pdf",
     "static/media/certificate6.jpg": "/portfolio/static/media/certificate6.26d01e7c0ba90a625eb3.jpg",
     "static/media/certificate2.jpg": "/portfolio/static/media/certificate2.26fffb5bfed1eac4b91e.jpg",
     "static/media/certificate1.jpg": "/portfolio/static/media/certificate1.02d370746160e1b57561.jpg",
@@ -20,10 +20,10 @@
     "static/media/certificate3.jpg": "/portfolio/static/media/certificate3.957cec1e8dbdbf0d87e6.jpg",
     "index.html": "/portfolio/index.html",
     "main.f9fc5f1d.css.map": "/portfolio/static/css/main.f9fc5f1d.css.map",
-    "main.97eb4543.js.map": "/portfolio/static/js/main.97eb4543.js.map"
+    "main.c6c4225c.js.map": "/portfolio/static/js/main.c6c4225c.js.map"
   },
   "entrypoints": [
     "static/css/main.f9fc5f1d.css",
-    "static/js/main.97eb4543.js"
+    "static/js/main.c6c4225c.js"
   ]
 }
