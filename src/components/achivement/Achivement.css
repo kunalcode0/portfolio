@@ -15,6 +15,11 @@
     color: antiquewhite;
     font-weight: 300;
     font-size: 1rem;
+    padding-bottom: 3rem;
+   
+}
+.organisation__name small{
+    margin-bottom: 3rem;
 }
 .certificate__name{
     font-size: 1.1rem;

@@ -11,8 +11,8 @@
 }
 
 :root{
-  --color-bg: #1f1f38;
-  --color-bg-varient:#5858c9;
+  --color-bg: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+  --color-bg-varient:linear-gradient(-225deg, #3D4E81 0%, #5753C9 48%, #6E7FF3 100%);
   --color-primary:#4db5ff;
   --color-primary-varient:rgba(37, 150, 230, 0.4);
   --color-wight:#fff;
@@ -85,12 +85,13 @@ a:hover{
 }
 
 .btn:hover{
-  background:var(--color-wight);
+  background:var(--color-bg);
   color: var(--color-bg);
   border-color: transparent;
+  scale: 1.1;
 }
 .btn-primary{
-  background: var(--color-primary);
+  background:  linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
   color: var(--color-bg);
 }
 img{

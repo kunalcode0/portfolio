@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css';
-import ME2 from '../../assets/ME2.webp'
+import ME2 from '../../assets/ME2.png'
 import{FiAward} from 'react-icons/fi'
 import{FiUsers} from 'react-icons/fi'
 import{RiProjectorLine} from 'react-icons/ri'

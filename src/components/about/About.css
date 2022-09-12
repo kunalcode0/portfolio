@@ -10,20 +10,15 @@
     width: 20rem;
     border-radius: 2rem;
     overflow: hidden;
-    transition: var(--transition);
 }
 .about__img{
     width: 100%;
     aspect-ratio: 1/1;
-    background: linear-gradient(45deg,transparent,var(--color-primary),transparent);
     display: grid;
     place-items: center; 
     border-radius: 2rem;
 }
 
-.about__img img:hover{
-    transform: rotate(10deg);
-}
 
 .about__cards{
     display: grid;
@@ -104,10 +99,16 @@
 
 @media screen and (max-width:350px) {
     .about__img{
-        width: 90%;
+        width: 100%;
     }
     .about__img img{
+        width: 100%;
+    }
+    .about__cards{
+        grid-template-columns: 1fr;
+        gap: 1rem;
         width: 80%;
+        margin: auto;
     }
 
     .about__article{
