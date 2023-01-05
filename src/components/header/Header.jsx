@@ -13,7 +13,7 @@ function Header() {
        <div className="head"> <h5>Hii I'm</h5>
         <h1>Kunal</h1>
         <h5 className="text-light">
-            Frontend Devloper
+            Frontend Developer
         </h5>
         <CTA/>
         <Social/>
